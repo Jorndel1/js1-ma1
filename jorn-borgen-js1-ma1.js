@@ -4,6 +4,7 @@ var cat = {
         console.log("Meow!");
     }
 }
+cat.complain();
 
 //Question (2)
 const heading = document.querySelector("h3");
