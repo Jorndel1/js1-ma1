@@ -1,5 +1,5 @@
 //Question (1)
-var cat = { 
+const cat = { 
     complain: function(){
         console.log("Meow!");
     }
@@ -24,7 +24,7 @@ resultsContainer.innerHTML = "<p>New paragraph</p>";
 
 //Question (7)
 function catArray(arrayData){
-    for(var i = 0; i < arrayData.length; i++){
+    for(let i = 0; i < arrayData.length; i++){
         console.log(arrayData[i].name);
     }
 }
